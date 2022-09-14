@@ -35,6 +35,7 @@ final class LogProgram {
     * @throws IllegalStateException
     *
     */
+
     private LogProgram() {
         throw new IllegalStateException("Cannot be instantiated");
     }
