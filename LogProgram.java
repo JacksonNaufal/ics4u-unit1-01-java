@@ -47,9 +47,9 @@ final class LogProgram {
     public static void main(final String[] args) {
         // print out "Log Capacity!"
         final Scanner myObj = new Scanner(System.in);
-        System.out.println("Enter log length of logs!");
-        float LogProgram = myObj.nextFloat();
-        System.out.println("Number of log is:" + CAP / (LogProgram * LBS));
+        System.out.print("Enter log length of logs: ");
+        final float log = myObj.nextFloat();
+        System.out.println("Number of log is: " + CAP / (log * LBS));
         System.out.println("\nDone.");
     }
 }
